@@ -1,0 +1,20 @@
+{
+  "name": "curso-fundamentos-de-nodejs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "nodemon-start": "nodemon conceptos/monohilo.js",
+    "pm2-start": "pm2 start conceptos/monohilo.js",
+    "pm2-stop": "pm2 stop conceptos/monohilo.js",
+    "pm2-log": "pm2 log",
+    "pm2-status": "pm2 status"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "nodemon": "^2.0.4",
+    "pm2": "^4.4.0"
+  }
+}
